@@ -1,11 +1,12 @@
 <script setup lang="ts">
- import type { MaisonResponse } from '@/pocketbase-types'
+import type { MaisonResponse } from '@/pocketbase-types'
+import {Collections} from '@/pocketbase-types'
 
 const Maison: MaisonResponse[] = [
   {
     "adresse": "7A Rue Jean Moulin 87350 Panazol",
     "collectionId": "abmiqss6t9fk0y5",
-    "collectionName": "Maison",
+    "collectionName": Collections.Maison,
     "created": "2024-04-12 08:36:23.090Z",
     "favori": false,
     "id": "rkfdoca57u41o44",
@@ -20,7 +21,7 @@ const Maison: MaisonResponse[] = [
   {
     "adresse": "12 Avenue Lagrange 03200 Vichy",
     "collectionId": "abmiqss6t9fk0y5",
-    "collectionName": "Maison",
+    "collectionName": Collections.Maison,
     "created": "2024-04-12 08:40:05.782Z",
     "favori": true,
     "id": "pg8qbvgltwp8gpo",
@@ -37,7 +38,7 @@ const Maison: MaisonResponse[] = [
   {
     "adresse": "1 chemin de la forêt 23000 Guéret",
     "collectionId": "abmiqss6t9fk0y5",
-    "collectionName": "Maison",
+    "collectionName": Collections.Maison,
     "created": "2024-04-12 08:47:09.215Z",
     "favori": true,
     "id": "uim8v2k2c3ulp04",
@@ -57,7 +58,7 @@ const Maison: MaisonResponse[] = [
   {
     "adresse": "15 Boulevard GrosJean 25200 Montbéliard",
     "collectionId": "abmiqss6t9fk0y5",
-    "collectionName": "Maison",
+    "collectionName": Collections.Maison,
     "created": "2024-04-12 08:51:32.851Z",
     "favori": false,
     "id": "0z3ph3zzh8ibhs7",
@@ -76,7 +77,7 @@ const Maison: MaisonResponse[] = [
   {
     "adresse": "6 Impasse des lilas 64500 Saint-Jean-de-Luz",
     "collectionId": "abmiqss6t9fk0y5",
-    "collectionName": "Maison",
+    "collectionName": Collections.Maison,
     "created": "2024-04-12 08:54:16.671Z",
     "favori": false,
     "id": "cloxe8s7l1nqeiz",
@@ -96,5 +97,5 @@ const Maison: MaisonResponse[] = [
 
 <template>
   <h1 class="text-2xl">Bonjour monde !</h1>
-
+  <maisonCard></maisonCard>
 </template>
