@@ -1,19 +1,7 @@
 <script setup lang="ts">
-const maisonsListe: {
-    adresse: string;
-    collectionId: string;
-    collectionName: string;
-    created: string;
-    favori: boolean;
-    id: string;
-    images: string[];
-    nbSdB: number;
-    nbrChambres: number;
-    nomMaison: string;
-    prix: number;
-    surface: number;
-    updated: string;
-}[] = [
+ import type { MaisonResponse } from '@/pocketbase-types'
+
+const Maison: MaisonResponse[] = [
   {
     "adresse": "7A Rue Jean Moulin 87350 Panazol",
     "collectionId": "abmiqss6t9fk0y5",
