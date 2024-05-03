@@ -97,6 +97,5 @@ const Maison: MaisonResponse[] = [
 </script>
 
 <template>
-  <h1 class="text-2xl">Bonjour monde !</h1>
   <maisonCard />
 </template>
