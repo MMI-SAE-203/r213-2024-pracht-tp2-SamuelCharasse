@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import type { MaisonResponse } from '@/pocketbase-types'
 import {Collections} from '@/pocketbase-types'
+import maisonCard from '@/components/maisonCard.vue';
 
 const Maison: MaisonResponse[] = [
   {
@@ -97,5 +98,5 @@ const Maison: MaisonResponse[] = [
 
 <template>
   <h1 class="text-2xl">Bonjour monde !</h1>
-  <maisonCard></maisonCard>
+  <maisonCard />
 </template>
