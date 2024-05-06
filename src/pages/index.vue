@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import type { MaisonResponse } from '@/pocketbase-types'
-import {Collections} from '@/pocketbase-types'
+import type { MaisonResponse } from '@/pocketbase-types';
+import {Collections} from '@/pocketbase-types';
 import maisonCard from '@/components/maisonCard.vue';
 
 const Maison: MaisonResponse[] = [
