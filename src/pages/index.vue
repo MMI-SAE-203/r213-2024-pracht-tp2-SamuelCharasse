@@ -3,15 +3,16 @@ import type { MaisonResponse } from '@/pocketbase-types'
 import {Collections} from '@/pocketbase-types'
 import maisonCard from '@/components/maisonCard.vue';
 
-const Maison: MaisonResponse[] = [
+const Maison: MaisonResponse[] = C:\Program Files\nodejs\node.exe .\pocketbase\backend.mjs
+[
   {
     "adresse": "7A Rue Jean Moulin 87350 Panazol",
     "collectionId": "abmiqss6t9fk0y5",
-    "collectionName": Collections.Maison,
+    "collectionName": "Maison",
     "created": "2024-04-12 08:36:23.090Z",
     "favori": false,
     "id": "rkfdoca57u41o44",
-    "images": [],
+    "image": [],
     "nbSdB": 2,
     "nbrChambres": 3,
     "nomMaison": "Anis",
@@ -22,11 +23,11 @@ const Maison: MaisonResponse[] = [
   {
     "adresse": "12 Avenue Lagrange 03200 Vichy",
     "collectionId": "abmiqss6t9fk0y5",
-    "collectionName": Collections.Maison,
+    "collectionName": "Maison",
     "created": "2024-04-12 08:40:05.782Z",
     "favori": true,
     "id": "pg8qbvgltwp8gpo",
-    "images": [
+    "image": [
       "luis_georg_muller_t1_ic_ka8_hk_um_unsplash_bBkyqyQvKl.jpg"
     ],
     "nbSdB": 2,
@@ -39,11 +40,11 @@ const Maison: MaisonResponse[] = [
   {
     "adresse": "1 chemin de la forêt 23000 Guéret",
     "collectionId": "abmiqss6t9fk0y5",
-    "collectionName": Collections.Maison,
+    "collectionName": "Maison",
     "created": "2024-04-12 08:47:09.215Z",
     "favori": true,
     "id": "uim8v2k2c3ulp04",
-    "images": [
+    "image": [
       "naomi_hebert_mp0bga_s_d1c_unsplash_v2gjA8Wy01.jpg",
       "spacejoy_ih7w_psjwomc_unsplash_BV3jYUzrEK.jpg",
       "rowan_heuvel_bjej8_by1_jyq_unsplash_Vdi42sY768.jpg",
@@ -59,11 +60,11 @@ const Maison: MaisonResponse[] = [
   {
     "adresse": "15 Boulevard GrosJean 25200 Montbéliard",
     "collectionId": "abmiqss6t9fk0y5",
-    "collectionName": Collections.Maison,
+    "collectionName": "Maison",
     "created": "2024-04-12 08:51:32.851Z",
     "favori": false,
     "id": "0z3ph3zzh8ibhs7",
-    "images": [
+    "image": [
       "kenny_eliason_m_gzx2_mopr_s_unsplash_meoQlsTuul.jpg",
       "kam_idris_hq_hx3_lbn18_unsplash_Gx7AhW5vjJ.jpg",
       "minh_pham_ot_xadk_uh3_i_unsplash_VrE9WvLEj0.jpg"
@@ -78,11 +79,11 @@ const Maison: MaisonResponse[] = [
   {
     "adresse": "6 Impasse des lilas 64500 Saint-Jean-de-Luz",
     "collectionId": "abmiqss6t9fk0y5",
-    "collectionName": Collections.Maison,
+    "collectionName": "Maison",
     "created": "2024-04-12 08:54:16.671Z",
     "favori": false,
     "id": "cloxe8s7l1nqeiz",
-    "images": [
+    "image": [
       "minh_pham_7p_cfuyb_p_p8_unsplash_CeXgjofHkH.jpg",
       "scott_webb_1ddol8rg_uh8_unsplash_U0fmoojlxw.jpg"
     ],
