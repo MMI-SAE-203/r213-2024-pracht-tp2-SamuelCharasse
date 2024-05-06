@@ -3,8 +3,7 @@ import type { MaisonResponse } from '@/pocketbase-types'
 import {Collections} from '@/pocketbase-types'
 import maisonCard from '@/components/maisonCard.vue';
 
-const Maison: MaisonResponse[] = C:\Program Files\nodejs\node.exe .\pocketbase\backend.mjs
-[
+const Maison: MaisonResponse[] = [
   {
     "adresse": "7A Rue Jean Moulin 87350 Panazol",
     "collectionId": "abmiqss6t9fk0y5",
